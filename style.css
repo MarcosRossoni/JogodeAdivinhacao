@@ -1,0 +1,65 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 600px;
+    background: url("https://pm1.narvii.com/6767/29880a9c143000200160465bd6826283d2b83496v2_hq.jpg");
+    background-color: #006ccd;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #006ccd;
+    margin-top: 0 0 5px;
+}
+
+p {
+    color: #006ccd;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #006ccd;
+    margin-top: 20px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media (max-height: 500px) {
+    body {
+        min-width: 800px;
+    }
+}
+
+input {
+    margin: 12px;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.resultado {
+    color: #006ccd;
+    text-align: center;
+    margin-top: 16px;
+}
